@@ -45,8 +45,8 @@ public class Movement : MonoBehaviour{
 }
 */
     private Rigidbody rb;
-    public float thrust = 1.0f;
-    private bool isLeftPressed = false;
+    //public float thrust = 1.0f;
+    //private bool isLeftPressed = false;
 
     // Start is called before the first frame update
     void Start()
@@ -78,8 +78,8 @@ public class Movement : MonoBehaviour{
 
     public float speed;
     public float rotationSpeed;
-    public float verticalInput;
-    public float horizontalInput;
+    private float verticalInput;
+    private float horizontalInput;
 
     // Update is called once per frame
     void FixedUpdate()
@@ -95,9 +95,6 @@ public class Movement : MonoBehaviour{
         rb.transform.Translate(Vector3.right * speed * horizontalInput);
         // tilt the plane up/down based on up/down arrow keys
         //rb.transform.Rotate(Vector3.right, horizontalInput * rotationSpeed * Time.deltaTime);
-
-
     }
 
  }
-
