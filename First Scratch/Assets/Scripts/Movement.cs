@@ -92,9 +92,9 @@ public class Movement : MonoBehaviour{
 
         // move the plane forward at a constant rate
         rb.transform.Translate(Vector3.forward * speed * verticalInput);
-
+        rb.transform.Translate(Vector3.right * speed * horizontalInput);
         // tilt the plane up/down based on up/down arrow keys
-        rb.transform.Rotate(Vector3.right, horizontalInput * rotationSpeed * Time.deltaTime);
+        //rb.transform.Rotate(Vector3.right, horizontalInput * rotationSpeed * Time.deltaTime);
 
 
     }
