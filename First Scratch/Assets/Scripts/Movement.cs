@@ -82,8 +82,7 @@ public class Movement : MonoBehaviour{
     private float horizontalInput;
 
     // Update is called once per frame
-    void FixedUpdate()
-    {
+    void FixedUpdate(){
         // get the user's vertical input
         verticalInput = Input.GetAxis("Vertical");
 
