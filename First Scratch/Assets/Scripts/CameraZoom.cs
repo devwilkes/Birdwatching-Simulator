@@ -16,11 +16,14 @@ public class CameraZoom : MonoBehaviour
     */
 
     // Update is called once per frame
-    void Update()
-    {
+    void Update(){
         float fov = Camera.main.fieldOfView;
         fov += Input.GetAxis("Mouse ScrollWheel")* sensitivty;
         fov = Mathf.Clamp(fov, minFov, maxFov);
         Camera.main.fieldOfView = fov;
+    }
+
+    void sliderInput(){
+        
     }
 }
