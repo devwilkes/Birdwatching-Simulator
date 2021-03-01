@@ -4,7 +4,7 @@ using System.Collections;
 
 [AddComponentMenu("Camera-Control/Mouse Look")]
 public class CameraMove : MonoBehaviour {
-
+/*
     public enum RotationAxes { MouseXAndY = 0, MouseX = 1, MouseY = 2 }
     public RotationAxes axes = RotationAxes.MouseXAndY;
     public float sensitivityX = 15F;
@@ -17,6 +17,8 @@ public class CameraMove : MonoBehaviour {
     public float maximumY = 60F;
 
     float rotationY = 0F;
+
+    public Transform playerBody;
 
     void Update ()
     {
@@ -40,6 +42,8 @@ public class CameraMove : MonoBehaviour {
 
             transform.localEulerAngles = new Vector3(-rotationY, transform.localEulerAngles.y, 0);
         }
+
+        playerBody.Rotate(Vector3.up)
     }
 
     void Start ()
@@ -50,5 +54,26 @@ public class CameraMove : MonoBehaviour {
         // Make the rigid body not change rotation
         //if (rigidbody)
             //rigidbody.freezeRotation = true;
+    }
+    */
+
+    public float mouseSensitivity = 100f;
+    public Transform playerBody;
+    float xRotation = 0f;
+
+    void Start(){
+        Cursor.lockState = CursorLockMode.Locked;
+    }
+
+    void Update(){
+        float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity *Time.deltaTime;
+        float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity *Time.deltaTime;
+
+        xRotation -= mouseY;
+        xRotation = Mathf.Clamp(xRotation, 90f, 90f);
+
+        transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
+
+        playerBody.Rotate(Vector3.up * mouseX);
     }
 }
