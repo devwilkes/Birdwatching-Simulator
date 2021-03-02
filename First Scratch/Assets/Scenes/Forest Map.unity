@@ -661,7 +661,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 0.9339623, g: 0.9278576, b: 0.8326362, a: 1}
+  m_Color: {r: 0.7264151, g: 0.557128, b: 0.42145783, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -812,6 +812,7 @@ GameObject:
   m_Component:
   - component: {fileID: 794872070}
   - component: {fileID: 794872069}
+  - component: {fileID: 794872071}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -853,6 +854,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &794872071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 794872068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b40c62ecec57fd047a26196eee9a8dc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 794872069}
+  speed: 0
 --- !u!1 &832231455
 GameObject:
   m_ObjectHideFlags: 0
@@ -1356,13 +1371,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35477eebb14129345b9cb9ab36ad7384, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  axes: 0
-  sensitivityX: 10
-  sensitivityY: 10
-  minimumX: -360
-  maximumX: 360
-  minimumY: -60
-  maximumY: 60
+  mouseSensitivity: 100
+  playerBody: {fileID: 794872070}
 --- !u!114 &963194230
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2955,7 +2965,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 2066794728}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 0
+  m_Enabled: 1
   m_Radius: 0.5
   m_Height: 2
   m_Direction: 1
@@ -3046,11 +3056,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2066794728}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Script: {fileID: 11500000, guid: b40c62ecec57fd047a26196eee9a8dc7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  controller: {fileID: 0}
+  speed: 0
 --- !u!1 &2134040396
 GameObject:
   m_ObjectHideFlags: 0
