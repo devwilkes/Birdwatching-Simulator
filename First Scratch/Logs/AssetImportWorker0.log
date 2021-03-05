@@ -1658,3 +1658,176 @@ System memory in use after: 73.7 MB.
 Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1659.
 Total: 2.926300 ms (FindLiveObjects: 0.287900 ms CreateObjectMapping: 0.066500 ms MarkObjects: 2.545100 ms  DeleteObjects: 0.021100 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 9456.670554 seconds.
+  path: Assets/Scripts/Movement.cs
+  artifactKey: Guid(b40c62ecec57fd047a26196eee9a8dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Movement.cs using Guid(b40c62ecec57fd047a26196eee9a8dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6e1424af3395ae83dcf3433be639d52') in 0.159738 seconds
+  Import took 0.211225 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001121 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.291 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1101 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.6 MB.
+System memory in use after: 73.7 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1661.
+Total: 2.777200 ms (FindLiveObjects: 0.382900 ms CreateObjectMapping: 0.042300 ms MarkObjects: 2.306100 ms  DeleteObjects: 0.044300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1204.353734 seconds.
+  path: Assets/Materials/Birch Tree.prefab
+  artifactKey: Guid(b97dd3e2cfc7ae14a8409c11fb821ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Birch Tree.prefab using Guid(b97dd3e2cfc7ae14a8409c11fb821ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2c9d1cfbd72261f738975c135844616') in 0.283232 seconds
+  Import took 0.290200 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001360 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.171 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1101 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.6 MB.
+System memory in use after: 73.7 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1664.
+Total: 2.093100 ms (FindLiveObjects: 0.178200 ms CreateObjectMapping: 0.043200 ms MarkObjects: 1.847000 ms  DeleteObjects: 0.017500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 76.375233 seconds.
+  path: Assets/Materials/Birch Tree.prefab
+  artifactKey: Guid(b97dd3e2cfc7ae14a8409c11fb821ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Birch Tree.prefab using Guid(b97dd3e2cfc7ae14a8409c11fb821ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c141374a1529116532dca1161620bc19') in 0.164612 seconds
+  Import took 0.167347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.087052 seconds.
+  path: Assets/Materials/Birch Tree.prefab
+  artifactKey: Guid(b97dd3e2cfc7ae14a8409c11fb821ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Birch Tree.prefab using Guid(b97dd3e2cfc7ae14a8409c11fb821ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f080d70c18a82075b1a0af48351f3645') in 0.073740 seconds
+  Import took 0.084725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.957684 seconds.
+  path: Assets/Materials/Birch Tree.prefab
+  artifactKey: Guid(b97dd3e2cfc7ae14a8409c11fb821ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Birch Tree.prefab using Guid(b97dd3e2cfc7ae14a8409c11fb821ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a15185298ecb7edfc23eac94c923bfb3') in 0.048631 seconds
+  Import took 0.051416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.631541 seconds.
+  path: Assets/Materials/Birch Tree.prefab
+  artifactKey: Guid(b97dd3e2cfc7ae14a8409c11fb821ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Birch Tree.prefab using Guid(b97dd3e2cfc7ae14a8409c11fb821ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7bc972a421269192fc24388cdbb0120') in 0.039216 seconds
+  Import took 0.044049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.313437 seconds.
+  path: Assets/Materials/Birch Tree.prefab
+  artifactKey: Guid(b97dd3e2cfc7ae14a8409c11fb821ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Birch Tree.prefab using Guid(b97dd3e2cfc7ae14a8409c11fb821ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eb1c9c99a4616ff0fd7a72b832092ba') in 0.051728 seconds
+  Import took 0.058079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.399662 seconds.
+  path: Assets/Materials/Birch Tree.prefab
+  artifactKey: Guid(b97dd3e2cfc7ae14a8409c11fb821ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Birch Tree.prefab using Guid(b97dd3e2cfc7ae14a8409c11fb821ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df0b152c26dc219c020883758b81a487') in 0.055524 seconds
+  Import took 0.058788 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001196 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.578 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1101 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.8 MB.
+System memory in use after: 73.9 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1667.
+Total: 2.557100 ms (FindLiveObjects: 0.270600 ms CreateObjectMapping: 0.047100 ms MarkObjects: 2.217300 ms  DeleteObjects: 0.017800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 6527.654209 seconds.
+  path: Assets/Materials/Birch Tree.prefab
+  artifactKey: Guid(b97dd3e2cfc7ae14a8409c11fb821ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Birch Tree.prefab using Guid(b97dd3e2cfc7ae14a8409c11fb821ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ea12c649415cf8fd84f812fc0a73dc6') in 0.382666 seconds
+  Import took 0.433329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 276.120252 seconds.
+  path: Assets/Materials/Birch Tree.prefab
+  artifactKey: Guid(b97dd3e2cfc7ae14a8409c11fb821ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Birch Tree.prefab using Guid(b97dd3e2cfc7ae14a8409c11fb821ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8f8945e7ac934a53e9aaf6bc62911a5') in 0.052657 seconds
+  Import took 0.056438 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001773 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.015 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1101 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.8 MB.
+System memory in use after: 73.9 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1670.
+Total: 1.723600 ms (FindLiveObjects: 0.159200 ms CreateObjectMapping: 0.041600 ms MarkObjects: 1.503300 ms  DeleteObjects: 0.017700 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
