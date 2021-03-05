@@ -4,36 +4,6 @@ using UnityEngine;
 
 
 public class Movement : MonoBehaviour{
-   /*
-    private Rigidbody rb;
-
-    void Start()
-    {
-        rb=GetComponent<Rigidbody>();
-
-    }
-
-    public float speed;
-    public float rotationSpeed;
-    private float verticalInput;
-    private float horizontalInput;
-
-    // Update is called once per frame
-    void FixedUpdate(){
-        // get the user's vertical input
-        verticalInput = Input.GetAxis("Vertical");
-
-        // get the user's vertical input
-        horizontalInput = Input.GetAxis("Horizontal");
-
-        // move the plane forward at a constant rate
-        rb.transform.Translate(Vector3.forward * speed * verticalInput);
-        rb.transform.Translate(Vector3.right * speed * horizontalInput);
-        // tilt the plane up/down based on up/down arrow keys
-        //rb.transform.Rotate(Vector3.right, horizontalInput * rotationSpeed * Time.deltaTime);
-    }
-    */
-
     public CharacterController controller;
     public float speed = 12f;
     public float gravity = -9.8f;
@@ -46,13 +16,15 @@ public class Movement : MonoBehaviour{
     void Update(){
 
         isGrounded = Physics.CheckSphere(GroundCheck.position, groundDistance, groundMask);
-
+        Debug.Log("debug is " + isGrounded);
         if(isGrounded && velocity.y < 0){
             velocity.y = -2f;
         }
 
         float x = Input.GetAxis("Horizontal");
+        Debug.Log("hinput is " + x);
         float z = Input.GetAxis("Vertical");
+        Debug.Log("zinput is " + z);
 
         Vector3 move = transform.right * x + transform.forward * z;
 
@@ -61,8 +33,5 @@ public class Movement : MonoBehaviour{
         velocity.y += gravity * Time.deltaTime;
 
         controller.Move(velocity * Time.deltaTime);
-
-
-
     }
  }
