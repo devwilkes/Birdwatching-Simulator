@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6844645775769870253}
   - component: {fileID: 3321359258221294179}
   - component: {fileID: 6016741331828238057}
+  - component: {fileID: 8312103055771717820}
   m_Layer: 0
   m_Name: Oak Tree
   m_TagString: Untagged
@@ -83,7 +84,7 @@ MeshRenderer:
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
+  m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -92,6 +93,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!136 &8312103055771717820
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5406400780241106031}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 4
+  m_Height: 26.415497
+  m_Direction: 1
+  m_Center: {x: 0, y: 13.207748, z: 0}
 --- !u!114 &-8215657301020648536
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7236,8 +7251,8 @@ Material:
     - _SquashAmount: 1
     - _TranslucencyViewDependency: 0.7
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _TranslucencyColor: {r: 0.73, g: 0.85, b: 0.41, a: 1}
+    - _Color: {r: 0.28985274, g: 0.6509434, b: 0.22414559, a: 1}
+    - _TranslucencyColor: {r: 0.8207547, g: 0.8174232, b: 0.30584726, a: 1}
     - _TreeInstanceColor: {r: 1, g: 1, b: 1, a: 1}
     - _TreeInstanceScale: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
