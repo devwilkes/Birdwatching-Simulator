@@ -15,6 +15,19 @@ public class Movement : MonoBehaviour{
     bool runPress = false;
 
     void Update(){
+    Debug.LogFormat("Speed Initial: {0:0.00}", speed);
+
+        //runPress = Input.GetButtonDown("Fire1");
+        if (Input.GetButtonDown("Fire1")){
+            runPress = !runPress;
+        }
+
+        if(runPress == true){
+            speed = 25f;
+        }
+        else{
+            speed = 12f;
+        }
 
         isGrounded = Physics.CheckSphere(GroundCheck.position, groundDistance, groundMask);
 
@@ -33,17 +46,9 @@ public class Movement : MonoBehaviour{
 
         controller.Move(velocity * Time.deltaTime);
 
-        runPress = Input.GetButtonDown("Fire1");
-
-        if(runPress == true){
-            speed += 5f;
-        }
-        else{
-            speed = 12f;
-        }
-
+        
         Debug.Log(runPress);
-
+        Debug.LogFormat("Speed: {0:0.00}", speed);
 
     }
  }
