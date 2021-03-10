@@ -13,11 +13,34 @@ public class Movement : MonoBehaviour{
     public LayerMask groundMask;
     bool isGrounded;
     bool runPress = false;
+    public Vector3 home; // = (19.27, 17.04, 20.09);
+    Vector3 warpPosition = Vector3.zero;
+
+    void Start(){
+        home = transform.position;
+    }
+
+     public void WarpToHome(){
+        warpPosition = home;
+    }
+    
+    void LateUpdate()
+    {
+        if (warpPosition != Vector3.zero)
+        {
+                transform.position = warpPosition;
+                warpPosition = Vector3.zero;
+        }
+    }
+
+    void ButtonWarp(){
+        WarpToHome();
+        LateUpdate();
+    }
 
     void Update(){
     Debug.LogFormat("Speed Initial: {0:0.00}", speed);
 
-        //runPress = Input.GetButtonDown("Fire1");
         if (Input.GetButtonDown("Fire1")){
             runPress = !runPress;
         }
@@ -45,10 +68,5 @@ public class Movement : MonoBehaviour{
         velocity.y += gravity * Time.deltaTime;
 
         controller.Move(velocity * Time.deltaTime);
-
-        
-        Debug.Log(runPress);
-        Debug.LogFormat("Speed: {0:0.00}", speed);
-
     }
  }
