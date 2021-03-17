@@ -10,19 +10,19 @@ public Camera cam2;
  void Start(){
      GameObject GOCam;
 
-     GOCam = GameObject.Find("Overworld_Camera");
+     GOCam = GameObject.Find("Camera_Mode_Camera");
      cam1 = GOCam.GetComponent<Camera>();
 
-     GOCam = GameObject.Find("Camera_Mode_Camera");
+     GOCam = GameObject.Find("MainCamera");
      cam2 = GOCam.GetComponent<Camera>();
 
-     cam1.enabled = true;
-     cam2.enabled = false;
+     cam1.enabled = false;
+     cam2.enabled = true;
  }
  
  void Update(){
  
-     if (Input.GetKeyDown(KeyCode.C)) {
+     if (Input.GetButtonDown("Jump")) {
          cam1.enabled = !cam1.enabled;
          cam2.enabled = !cam2.enabled;
      }
