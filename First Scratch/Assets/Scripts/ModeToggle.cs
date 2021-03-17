@@ -2,22 +2,30 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CameraToggle : MonoBehaviour{
-/*
-var cam1 : Overworld_Camera;
-var cam2 : Camera_Mode_Camera;
+public class ModeToggle : MonoBehaviour{
+
+public Camera cam1;
+public Camera cam2;
  
- function Start(){
+ void Start(){
+     GameObject GOCam;
+
+     GOCam = GameObject.Find("Overworld_Camera");
+     cam1 = GOCam.GetComponent<Camera>();
+
+     GOCam = GameObject.Find("Camera_Mode_Camera");
+     cam2 = GOCam.GetComponent<Camera>();
+
      cam1.enabled = true;
      cam2.enabled = false;
  }
  
- function Update(){
+ void Update(){
  
      if (Input.GetKeyDown(KeyCode.C)) {
          cam1.enabled = !cam1.enabled;
          cam2.enabled = !cam2.enabled;
      }
  }
- */
+
 }

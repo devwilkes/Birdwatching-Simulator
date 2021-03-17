@@ -39,7 +39,6 @@ public class Movement : MonoBehaviour{
     }
 
     void Update(){
-    Debug.LogFormat("Speed Initial: {0:0.00}", speed);
 
         if (Input.GetButtonDown("Fire1")){
             runPress = !runPress;
