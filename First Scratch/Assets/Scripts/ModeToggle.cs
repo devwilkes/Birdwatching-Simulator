@@ -8,13 +8,13 @@ public Camera cam1;
 public Camera cam2;
  
  void Start(){
-     GameObject GOCam;
+     //GameObject GOCam;
 
-     GOCam = GameObject.Find("Camera_Mode_Camera");
-     cam1 = GOCam.GetComponent<Camera>();
+     //GOCam = GameObject.Find("Camera_Mode_Camera");
+     //cam1 = GOCam.GetComponent<Camera>();
 
-     GOCam = GameObject.Find("MainCamera");
-     cam2 = GOCam.GetComponent<Camera>();
+    // GOCam = GameObject.Find("MainCamera");
+    // cam2 = GOCam.GetComponent<Camera>();
 
      cam1.enabled = false;
      cam2.enabled = true;
@@ -22,7 +22,7 @@ public Camera cam2;
  
  void Update(){
  
-     if (Input.GetButtonDown("Jump")) {
+     if (Input.GetButtonDown("Fire2")) {
          cam1.enabled = !cam1.enabled;
          cam2.enabled = !cam2.enabled;
      }
