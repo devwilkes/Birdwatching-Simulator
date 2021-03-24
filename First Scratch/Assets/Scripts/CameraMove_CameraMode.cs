@@ -3,7 +3,7 @@ using System.Collections;
 
 
 [AddComponentMenu("Camera-Control/Mouse Look")]
-public class CameraMove : MonoBehaviour {
+public class CameraMove_CameraMode : MonoBehaviour {
 
     public float mouseSensitivity = 100f;
     public Transform playerBody;
