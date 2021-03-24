@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public class Movement : MonoBehaviour{
+public class FP_Movement : MonoBehaviour{
     public CharacterController controller;
     public float speed = 12f;
     public float gravity = -9.8f;
