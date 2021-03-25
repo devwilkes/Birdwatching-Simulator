@@ -19,6 +19,8 @@ public class TP_Movement : MonoBehaviour
     public LayerMask groundMask;
     bool isGrounded;
 
+    private Vector3 moveDirection;
+
     void Start()
     {
         
@@ -33,13 +35,15 @@ public class TP_Movement : MonoBehaviour
 
         if (direction.magnitude >= 0.1f)
         {
-            float targetAngle = Mathf.Atan2(direction.x, direction.z)*Mathf.Rad2Deg * cam.eulerAngles.y;
+            float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg * cam.eulerAngles.y;
             Debug.Log(cam.eulerAngles.y);
             float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle,
              ref turnSmoothVelocity, turnSmoothTime);
             transform.rotation = Quaternion.Euler(0f, angle, 0f);
 
             Vector3 moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
+
+            moveDirection = moveDir;
             
             controller.Move(moveDir.normalized * speed * Time.deltaTime);
              //move, then add gravity, and then fall
@@ -52,6 +56,12 @@ public class TP_Movement : MonoBehaviour
 
             controller.Move(velocity * Time.deltaTime);
         }
+
+    }
+
+    void OnDrawGizmos(){
+        Gizmos.color = Color.green;
+        Gizmos.DrawRay(transform.position, moveDirection * 10.0f);
 
     }
 }

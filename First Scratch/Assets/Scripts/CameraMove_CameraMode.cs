@@ -10,7 +10,7 @@ public class CameraMove_CameraMode : MonoBehaviour {
     public float xRotation = 0f;
 
     void Start(){
-        Cursor.lockState = CursorLockMode.Locked;
+        // Cursor.lockState = CursorLockMode.Locked;
     }
 
     void Update(){
