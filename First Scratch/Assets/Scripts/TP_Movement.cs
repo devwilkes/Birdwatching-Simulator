@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class TP_Movement : MonoBehaviour
 {
+    
     public CharacterController controller;
     public Transform cam;
 

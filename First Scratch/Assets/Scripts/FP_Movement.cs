@@ -16,6 +16,7 @@ public class FP_Movement : MonoBehaviour{
     public Vector3 home; // = (19.27, 17.04, 20.09);
     Vector3 warpPosition = Vector3.zero;
 
+// TODO: move this bad boy elsewhere
     void Start(){
         home = transform.position;
     }

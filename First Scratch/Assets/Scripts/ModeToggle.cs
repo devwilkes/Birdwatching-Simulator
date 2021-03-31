@@ -18,7 +18,6 @@ public Camera cam2;
  }
  
  void Update(){
- 
      if (Input.GetButtonDown("Fire2")) {
          cam1.enabled = !cam1.enabled;
          GetComponent<FP_Movement>().enabled = !cam1.enabled;
