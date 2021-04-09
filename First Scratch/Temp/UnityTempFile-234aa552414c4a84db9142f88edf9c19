@@ -312,15 +312,12 @@
 /define:UNITY_STANDALONE_WIN
 /define:UNITY_TEAM_LICENSE
 /define:USE_SEARCH_ENGINE_API
-Assets\CameraZoom.cs
 Assets\Scripts\CameraMove_CameraMode.cs
-Assets\Scripts\CameraMove_Overworld.cs
 Assets\Scripts\CameraZoom.cs
 Assets\Scripts\FP_Movement.cs
 Assets\Scripts\LandingPoint.cs
 Assets\Scripts\ModeToggle.cs
 Assets\Scripts\PauseMenu.cs
-Assets\Scripts\PauseMenuToggle.cs
 Assets\Scripts\TP_Movement.cs
 Assets\Scripts\ZoomSlider.cs
 "Assets\TextMesh Pro\Examples & Extras\Scripts\Benchmark01.cs"

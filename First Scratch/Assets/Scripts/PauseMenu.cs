@@ -6,11 +6,13 @@ public class PauseMenu : MonoBehaviour
 {
      public bool GameIsPaused = false;
     public GameObject pauseMenuUI;
+    // sets default to having the menu hidden
+    
 
     void Update()
-    {
+    {  
+        Debug.Log(Input.GetKeyDown(KeyCode.Escape));
         if (Input.GetKeyDown(KeyCode.Escape)){
-            Debug.Log(Input.GetKeyDown(KeyCode.Escape));
             if (GameIsPaused){
                 Resume();
             } else{
