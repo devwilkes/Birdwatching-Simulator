@@ -630,6 +630,7 @@ GameObject:
   - component: {fileID: 175061739}
   - component: {fileID: 175061738}
   - component: {fileID: 175061737}
+  - component: {fileID: 175061741}
   m_Layer: 5
   m_Name: Pause Menu
   m_TagString: Untagged
@@ -718,6 +719,20 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &175061741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 175061736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e96d77f659e73946ac8f18b61bc1c3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GameIsPaused: 0
+  pauseMenuUI: {fileID: 1339032572}
 --- !u!1 &190057256
 GameObject:
   m_ObjectHideFlags: 0
@@ -2150,11 +2165,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 450202425195233595, guid: 3b469c54689ec664b83275354992f218, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.8
+      value: 0.034
       objectReference: {fileID: 0}
     - target: {fileID: 450202425195233595, guid: 3b469c54689ec664b83275354992f218, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.49
+      value: 0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 450202425195233595, guid: 3b469c54689ec664b83275354992f218, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 823415277500291694, guid: 3b469c54689ec664b83275354992f218, type: 3}
       propertyPath: m_Name
@@ -2182,7 +2201,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5002754263037057362, guid: 3b469c54689ec664b83275354992f218, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -346.79
+      value: -346.21
       objectReference: {fileID: 0}
     - target: {fileID: 5002754263037057362, guid: 3b469c54689ec664b83275354992f218, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3082,7 +3101,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 812897286}
-  m_LocalRotation: {x: 0.10649044, y: -0.0000000042771364, z: 4.5807888e-10, w: 0.9943138}
+  m_LocalRotation: {x: 0.10649044, y: 0.000000004277134, z: -4.5807866e-10, w: 0.9943138}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -5213,7 +5232,6 @@ GameObject:
   - component: {fileID: 1339032573}
   - component: {fileID: 1339032575}
   - component: {fileID: 1339032574}
-  - component: {fileID: 1339032576}
   m_Layer: 5
   m_Name: Pause_Menu_Panel
   m_TagString: Untagged
@@ -5280,20 +5298,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1339032572}
   m_CullTransparentMesh: 1
---- !u!114 &1339032576
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1339032572}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e96d77f659e73946ac8f18b61bc1c3c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  GameIsPaused: 1
-  pauseMenuUI: {fileID: 1339032572}
 --- !u!1 &1362270739
 GameObject:
   m_ObjectHideFlags: 0
