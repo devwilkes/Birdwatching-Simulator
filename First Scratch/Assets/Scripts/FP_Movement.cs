@@ -13,31 +13,6 @@ public class FP_Movement : MonoBehaviour{
     public LayerMask groundMask;
     bool isGrounded;
     bool runPress = false;
-    public Vector3 home; // = (19.27, 17.04, 20.09);
-    Vector3 warpPosition = Vector3.zero;
-
-// TODO: move this bad boy elsewhere
-    void Start(){
-        home = transform.position;
-    }
-
-     public void WarpToHome(){
-        warpPosition = home;
-    }
-    
-    void LateUpdate()
-    {
-        if (warpPosition != Vector3.zero)
-        {
-                transform.position = warpPosition;
-                warpPosition = Vector3.zero;
-        }
-    }
-
-    void ButtonWarp(){
-        WarpToHome();
-        LateUpdate();
-    }
 
     void Update(){
 

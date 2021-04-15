@@ -7,6 +7,7 @@ public class PauseMenu : MonoBehaviour
     // sets default to having the menu hidden
      public bool GameIsPaused = false;
     public GameObject pauseMenuUI;
+    public GameObject optionsMenuUI;
 
     
 
@@ -40,11 +41,13 @@ public class PauseMenu : MonoBehaviour
     }
 
     public void Teleport_Button(){
-        Debug.Log("Returning to base...");
+        Debug.Log("SOS!...");
     }
 
     public void Options_Button(){
-        Debug.Log("Options");
+        pauseMenuUI.SetActive(false);
+        optionsMenuUI.SetActive(true);
+        Debug.Log("Options...");
     }
 
     public void Exit_Button(){
