@@ -987,7 +987,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 255906862}
-  m_LocalRotation: {x: 0.12451122, y: 0.000000008536242, z: -0.0000000010711936, w: 0.9922182}
+  m_LocalRotation: {x: 0.12451122, y: -0.000000008536244, z: 0.0000000010711938, w: 0.9922182}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -2517,7 +2517,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 697803869}
-  m_LocalRotation: {x: 0.124511234, y: 0.000000017072482, z: -0.0000000021423876, w: 0.9922182}
+  m_LocalRotation: {x: 0.124511234, y: -0.000000017072484, z: 0.0000000021423878, w: 0.9922182}
   m_LocalPosition: {x: 0, y: 9.999998, z: -34}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -3222,7 +3222,6 @@ MonoBehaviour:
   groundMask:
     serializedVersion: 2
     m_Bits: 64
-  home: {x: 0, y: 0, z: 0}
 --- !u!114 &794872072
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8570,7 +8569,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2063963505}
   m_Layer: 0
-  m_Name: Teleport Points
+  m_Name: Camps
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

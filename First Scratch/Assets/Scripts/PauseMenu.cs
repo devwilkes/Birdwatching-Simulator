@@ -10,7 +10,9 @@ public class PauseMenu : MonoBehaviour
     public GameObject optionsMenuUI;
 
     
-
+    void Start(){
+        pauseMenuUI.SetActive(false);
+    }
     void Update()
     {  
         Debug.Log(Input.GetKeyDown(KeyCode.Escape));

@@ -36,7 +36,7 @@ public class TP_Movement : MonoBehaviour
 
         if (direction.magnitude >= 0.1f)
         {
-            float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg * cam.eulerAngles.y;
+            float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + cam.eulerAngles.y;
             Debug.Log(cam.eulerAngles.y);
             float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle,
              ref turnSmoothVelocity, turnSmoothTime);
