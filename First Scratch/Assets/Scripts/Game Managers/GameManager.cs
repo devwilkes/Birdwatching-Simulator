@@ -4,14 +4,20 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    public GameObject playerPrefab;
+    public float playerHalfHeight;
+
     private static GameManager _instance;
-     public static GameManager Instance
+
+    public Checkpoint lastCheckpoint;
+
+    public static GameManager Instance
     {
-        get{
+        get 
+        {
             return _instance;
         }
     }
-
     void Awake()
     {
         if (_instance != null && _instance != this)
@@ -19,7 +25,23 @@ public class GameManager : MonoBehaviour
             Destroy(this.gameObject);
             return;
         }
+
         _instance = this;
         DontDestroyOnLoad(this.gameObject);
+    }
+
+    void Start()
+    {
+        SpawnPlayerAtTransform(Vector3.zero, Quaternion.identity);
+    }
+
+    void SpawnPlayerAtTransform(Vector3 position, Quaternion rotation)
+    {
+        if (playerPrefab == null)
+        {
+            return;
+        }
+
+        GameObject player = GameObject.Instantiate(playerPrefab, position + new Vector3(0.0f, playerHalfHeight, 0.0f), rotation);
     }
 }
