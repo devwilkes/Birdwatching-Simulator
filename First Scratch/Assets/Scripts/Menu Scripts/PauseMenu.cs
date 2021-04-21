@@ -12,6 +12,7 @@ public class PauseMenu : MonoBehaviour
     public Button ReturnToGame;
     public Button ExitButton;
     public Button ExitGame;
+    public Button WarpButton;
 
     
     void Start(){
@@ -19,6 +20,7 @@ public class PauseMenu : MonoBehaviour
         ReturnToGame.onClick.AddListener(On_Return_Button_Click);
         ExitGame.onClick.AddListener(On_Desktop_Button_Click);
         ExitButton.onClick.AddListener(On_Exit_Button_Click);
+        WarpButton.onClick.AddListener(On_Teleport_Button_Click);
         pauseMenuUI.SetActive(false);
     }
     void Update()
@@ -49,7 +51,7 @@ public class PauseMenu : MonoBehaviour
         Resume();
     }
 
-    public void Teleport_Button(){
+    public void On_Teleport_Button_Click(){
         Debug.Log("SOS!...");
     }
 

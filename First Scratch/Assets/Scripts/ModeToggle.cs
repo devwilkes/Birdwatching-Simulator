@@ -12,10 +12,10 @@ public GameObject fpControlsUI;
 //public MonoBehaviour moveScript2;
  
  void Start(){
-     cam1.enabled = false;
-     cam2.enabled = true;
-     GetComponent<FP_Movement>().enabled = false;
-     GetComponent<TP_Movement>().enabled = true;
+     cam1.enabled = true;
+     cam2.enabled = false;
+     GetComponent<FP_Movement>().enabled = true;
+     GetComponent<TP_Movement>().enabled = false;
 
  }
  
