@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
     private static GameManager _instance;
 
     public Checkpoint lastCheckpoint;
+    public Transform startLocation;
 
     public static GameManager Instance
     {
@@ -32,7 +33,15 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        SpawnPlayerAtTransform(Vector3.zero, Quaternion.identity);
+        if (startLocation!=null)
+        {
+            SpawnPlayerAtTransform(startLocation.position, startLocation.rotation);
+        }
+        else
+        {
+            SpawnPlayerAtTransform(Vector3.zero, Quaternion.identity);
+        }
+
     }
 
     void SpawnPlayerAtTransform(Vector3 position, Quaternion rotation)
@@ -43,5 +52,18 @@ public class GameManager : MonoBehaviour
         }
 
         GameObject player = GameObject.Instantiate(playerPrefab, position + new Vector3(0.0f, playerHalfHeight, 0.0f), rotation);
+    }
+
+    public void RespawnAtLastCheckpoint()
+    {
+        if(lastCheckpoint==null)
+        {
+            return;
+        }
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        if(player != null){
+            Destroy(player);
+        }
+        SpawnPlayerAtTransform(lastCheckpoint.transform.position, lastCheckpoint.transform.rotation);
     }
 }

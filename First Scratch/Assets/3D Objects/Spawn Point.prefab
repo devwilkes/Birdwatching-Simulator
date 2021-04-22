@@ -91,7 +91,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7923289943717378273}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.5000001
   m_Height: 2
@@ -109,3 +109,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbc91b60162eaa34d8d96c3687534f84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  activeMaterial: {fileID: 2100000, guid: b1fc148410966f3459b190350fea50ec, type: 2}
+  inactiveMaterial: {fileID: 2100000, guid: 844cdccd3d4f88d43a11b77c0a9e0ac3, type: 2}
+  mesh: {fileID: 2587469451337060}

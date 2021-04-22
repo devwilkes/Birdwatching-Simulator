@@ -53,6 +53,8 @@ public class PauseMenu : MonoBehaviour
 
     public void On_Teleport_Button_Click(){
         Debug.Log("SOS!...");
+        GameManager.Instance.RespawnAtLastCheckpoint();
+        Resume();
     }
 
     public void On_Options_Button_Click(){
