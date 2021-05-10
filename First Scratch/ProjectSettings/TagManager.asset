@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Camera_Mode_Camera
   - UI
+  - LandingPoint
   layers:
   - Default
   - TransparentFX

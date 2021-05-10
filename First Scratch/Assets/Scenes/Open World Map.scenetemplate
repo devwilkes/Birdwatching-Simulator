@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Open World Map
   m_EditorClassIdentifier: 
   templateScene: {fileID: 102900000, guid: 97f2b4010d0d32f4bb40c8abacd06237, type: 3}
-  templateName: Open World Map Template
-  description: A base terrain to create new exploration maps.
+  templateName: 
+  description: Basework for new roaming levels.
   preview: {fileID: 0}
   dependencies:
   - dependency: {fileID: 7923289943717378273, guid: 1c9f067154e4bcd4fa9036d19363e162, type: 3}

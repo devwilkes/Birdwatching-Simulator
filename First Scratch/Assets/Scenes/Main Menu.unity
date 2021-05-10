@@ -1771,8 +1771,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a13d2576c7afaf4c9f6df128782067b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainMenuUI: {fileID: 169143122}
-  saveMenuUI: {fileID: 1708722019}
+  mainMenuUI: {fileID: 875698900}
+  saveMenuUI: {fileID: 1200517872}
   StartButton: {fileID: 174439206}
 --- !u!1 &1714327808
 GameObject:
