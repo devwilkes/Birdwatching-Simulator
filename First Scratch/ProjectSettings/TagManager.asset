@@ -9,6 +9,8 @@ TagManager:
   - LandingPoint
   - IGFPUI
   - IGTPUI
+  - ZoomSlider
+  - FPCanvas
   layers:
   - Default
   - TransparentFX
