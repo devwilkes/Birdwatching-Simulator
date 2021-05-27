@@ -139,7 +139,7 @@ GameObject:
   - component: {fileID: 84330008}
   - component: {fileID: 84330007}
   - component: {fileID: 84330006}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Forest Hill Ridge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -220,7 +220,7 @@ GameObject:
   - component: {fileID: 129442761}
   - component: {fileID: 129442760}
   - component: {fileID: 129442759}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Forest Hill Slope
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -296,7 +296,7 @@ GameObject:
   - component: {fileID: 141228457}
   - component: {fileID: 141228459}
   - component: {fileID: 141228458}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Terrain_(-300.0, 0.0, 0.0)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -372,7 +372,7 @@ GameObject:
   - component: {fileID: 190057257}
   - component: {fileID: 190057259}
   - component: {fileID: 190057258}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Terrain_(-300.0, 0.0, 100.0)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -448,7 +448,7 @@ GameObject:
   - component: {fileID: 234542689}
   - component: {fileID: 234542691}
   - component: {fileID: 234542690}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Terrain_(-100.0, 0.0, 300.0)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -524,7 +524,7 @@ GameObject:
   - component: {fileID: 264334998}
   - component: {fileID: 264335000}
   - component: {fileID: 264334999}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Terrain_(-300.0, 0.0, -200.0)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -600,7 +600,7 @@ GameObject:
   - component: {fileID: 273567854}
   - component: {fileID: 273567856}
   - component: {fileID: 273567855}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Terrain_(300.0, 0.0, 0.0)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -676,7 +676,7 @@ GameObject:
   - component: {fileID: 283053953}
   - component: {fileID: 283053952}
   - component: {fileID: 283053951}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Forest Hill Plateau 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -752,7 +752,7 @@ GameObject:
   - component: {fileID: 307121492}
   - component: {fileID: 307121494}
   - component: {fileID: 307121493}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Terrain_(-300.0, 0.0, 300.0)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -828,7 +828,7 @@ GameObject:
   - component: {fileID: 340739106}
   - component: {fileID: 340739108}
   - component: {fileID: 340739107}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Terrain_(-200.0, 0.0, 300.0)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -909,7 +909,7 @@ GameObject:
   - component: {fileID: 355171075}
   - component: {fileID: 355171077}
   - component: {fileID: 355171076}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Terrain_(300.0, 0.0, -100.0)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -985,7 +985,7 @@ GameObject:
   - component: {fileID: 434416608}
   - component: {fileID: 434416610}
   - component: {fileID: 434416609}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Terrain_(300.0, 0.0, -200.0)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1059,7 +1059,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 475062542}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Terrain Grids
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1140,7 +1140,7 @@ GameObject:
   - component: {fileID: 522997857}
   - component: {fileID: 522997859}
   - component: {fileID: 522997858}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Terrain_(300.0, 0.0, 100.0)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1228,15 +1228,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 574206604}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 87891181}
   - {fileID: 1907598785}
   - {fileID: 935815667}
-  m_Father: {fileID: 1695859033}
-  m_RootOrder: 3
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &617894701
 PrefabInstance:
@@ -1260,6 +1260,10 @@ PrefabInstance:
     - target: {fileID: 823415277500291694, guid: 3b469c54689ec664b83275354992f218, type: 3}
       propertyPath: m_Name
       value: Central Point
+      objectReference: {fileID: 0}
+    - target: {fileID: 823415277500291694, guid: 3b469c54689ec664b83275354992f218, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5002754263037057362, guid: 3b469c54689ec664b83275354992f218, type: 3}
       propertyPath: m_RootOrder
@@ -1321,6 +1325,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Visual
       objectReference: {fileID: 0}
+    - target: {fileID: 7996140213826138658, guid: 3b469c54689ec664b83275354992f218, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3b469c54689ec664b83275354992f218, type: 3}
 --- !u!1 &661036909
@@ -1334,7 +1342,7 @@ GameObject:
   - component: {fileID: 661036912}
   - component: {fileID: 661036911}
   - component: {fileID: 661036910}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Forest Big Oak Clearing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1409,7 +1417,7 @@ GameObject:
   m_Component:
   - component: {fileID: 705507995}
   - component: {fileID: 705507994}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Directional Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1503,7 +1511,7 @@ GameObject:
   - component: {fileID: 721350474}
   - component: {fileID: 721350473}
   - component: {fileID: 721350472}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Forest Clearing 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1781,7 +1789,7 @@ GameObject:
   - component: {fileID: 832231458}
   - component: {fileID: 832231457}
   - component: {fileID: 832231456}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: 'Forest Pond/Stream '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1857,7 +1865,7 @@ GameObject:
   - component: {fileID: 869498848}
   - component: {fileID: 869498850}
   - component: {fileID: 869498849}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Terrain_(300.0, 0.0, 300.0)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1933,7 +1941,7 @@ GameObject:
   - component: {fileID: 889951469}
   - component: {fileID: 889951471}
   - component: {fileID: 889951470}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Terrain_(100.0, 0.0, -300.0)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2009,7 +2017,7 @@ GameObject:
   - component: {fileID: 903721664}
   - component: {fileID: 903721663}
   - component: {fileID: 903721662}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Forest Deep 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2085,7 +2093,7 @@ GameObject:
   - component: {fileID: 913541551}
   - component: {fileID: 913541550}
   - component: {fileID: 913541549}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Forest Deep 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2166,7 +2174,7 @@ GameObject:
   - component: {fileID: 940067621}
   - component: {fileID: 940067620}
   - component: {fileID: 940067619}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Forest Hill Climb 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2242,7 +2250,7 @@ GameObject:
   - component: {fileID: 1000032181}
   - component: {fileID: 1000032183}
   - component: {fileID: 1000032182}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Terrain_(-300.0, 0.0, -300.0)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2318,7 +2326,7 @@ GameObject:
   - component: {fileID: 1002981604}
   - component: {fileID: 1002981603}
   - component: {fileID: 1002981602}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Forest Deep 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2394,7 +2402,7 @@ GameObject:
   - component: {fileID: 1017738473}
   - component: {fileID: 1017738472}
   - component: {fileID: 1017738471}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Forest Deep 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2470,7 +2478,7 @@ GameObject:
   - component: {fileID: 1018435088}
   - component: {fileID: 1018435087}
   - component: {fileID: 1018435086}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Forest Stream End
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2546,7 +2554,7 @@ GameObject:
   - component: {fileID: 1031532539}
   - component: {fileID: 1031532541}
   - component: {fileID: 1031532540}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Forest Pond 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2698,7 +2706,7 @@ GameObject:
   - component: {fileID: 1119868992}
   - component: {fileID: 1119868994}
   - component: {fileID: 1119868993}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Terrain_(300.0, 0.0, 200.0)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2774,7 +2782,7 @@ GameObject:
   - component: {fileID: 1214507468}
   - component: {fileID: 1214507470}
   - component: {fileID: 1214507469}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Terrain_(100.0, 0.0, 300.0)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2907,7 +2915,7 @@ GameObject:
   - component: {fileID: 1291009943}
   - component: {fileID: 1291009945}
   - component: {fileID: 1291009944}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Terrain_(-100.0, 0.0, -300.0)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2983,7 +2991,7 @@ GameObject:
   - component: {fileID: 1305144434}
   - component: {fileID: 1305144433}
   - component: {fileID: 1305144432}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Forest Hill Plateau
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3059,7 +3067,7 @@ GameObject:
   - component: {fileID: 1313260791}
   - component: {fileID: 1313260793}
   - component: {fileID: 1313260792}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Terrain_(200.0, 0.0, -300.0)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3135,7 +3143,7 @@ GameObject:
   - component: {fileID: 1327952676}
   - component: {fileID: 1327952675}
   - component: {fileID: 1327952674}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Forest Hill Slope 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3211,7 +3219,7 @@ GameObject:
   - component: {fileID: 1333622767}
   - component: {fileID: 1333622769}
   - component: {fileID: 1333622768}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Terrain_(300.0, 0.0, -300.0)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3292,7 +3300,7 @@ GameObject:
   - component: {fileID: 1362270740}
   - component: {fileID: 1362270742}
   - component: {fileID: 1362270741}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Terrain_(-200.0, 0.0, -300.0)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3368,7 +3376,7 @@ GameObject:
   - component: {fileID: 1384375723}
   - component: {fileID: 1384375722}
   - component: {fileID: 1384375721}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Forest Hill Climb 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3444,7 +3452,7 @@ GameObject:
   - component: {fileID: 1411028425}
   - component: {fileID: 1411028427}
   - component: {fileID: 1411028426}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Forest Pond Clearing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3520,7 +3528,7 @@ GameObject:
   - component: {fileID: 1484757378}
   - component: {fileID: 1484757380}
   - component: {fileID: 1484757379}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Forest Deep 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3596,7 +3604,7 @@ GameObject:
   - component: {fileID: 1510281941}
   - component: {fileID: 1510281943}
   - component: {fileID: 1510281942}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Terrain_(200.0, 0.0, 300.0)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3702,7 +3710,7 @@ GameObject:
   - component: {fileID: 1648519503}
   - component: {fileID: 1648519505}
   - component: {fileID: 1648519504}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Forest Pond 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3776,7 +3784,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1695859033}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Map
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3797,7 +3805,6 @@ Transform:
   - {fileID: 705507995}
   - {fileID: 2063963505}
   - {fileID: 475062542}
-  - {fileID: 574206605}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3812,7 +3819,7 @@ GameObject:
   - component: {fileID: 1726305510}
   - component: {fileID: 1726305509}
   - component: {fileID: 1726305508}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Forest Deep 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3888,7 +3895,7 @@ GameObject:
   - component: {fileID: 1741766599}
   - component: {fileID: 1741766598}
   - component: {fileID: 1741766597}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Forest Hill Plateau 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3964,7 +3971,7 @@ GameObject:
   - component: {fileID: 1746760390}
   - component: {fileID: 1746760389}
   - component: {fileID: 1746760388}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Forest Clearing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4040,7 +4047,7 @@ GameObject:
   - component: {fileID: 1772205569}
   - component: {fileID: 1772205568}
   - component: {fileID: 1772205567}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Forest Stream
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4116,7 +4123,7 @@ GameObject:
   - component: {fileID: 1848641834}
   - component: {fileID: 1848641836}
   - component: {fileID: 1848641835}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Terrain_(0.0, 0.0, -300.0)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4254,7 +4261,7 @@ GameObject:
   - component: {fileID: 1936796982}
   - component: {fileID: 1936796984}
   - component: {fileID: 1936796983}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Terrain_(-300.0, 0.0, -100.0)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4330,7 +4337,7 @@ GameObject:
   - component: {fileID: 2014352933}
   - component: {fileID: 2014352935}
   - component: {fileID: 2014352934}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Forest Starting Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4406,7 +4413,7 @@ GameObject:
   - component: {fileID: 2017754956}
   - component: {fileID: 2017754958}
   - component: {fileID: 2017754957}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Terrain_(0.0, 0.0, 300.0)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4480,7 +4487,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2063963505}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Camps
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4513,7 +4520,7 @@ GameObject:
   - component: {fileID: 2094958785}
   - component: {fileID: 2094958787}
   - component: {fileID: 2094958786}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Terrain_(-300.0, 0.0, 200.0)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4589,7 +4596,7 @@ GameObject:
   - component: {fileID: 2134040399}
   - component: {fileID: 2134040398}
   - component: {fileID: 2134040397}
-  m_Layer: 6
+  m_Layer: 8
   m_Name: Forest Basin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
