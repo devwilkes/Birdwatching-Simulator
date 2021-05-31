@@ -12,15 +12,15 @@ public class CameraZoom : MonoBehaviour
     public float sensitivty = 10f;
     public Camera mainCam;
 
-    private Component zoomComponent;
+    //private Component zoomComponent;
 
-    private Slider zoomSlider;
+    //private Slider zoomSlider;
 
      void Start()
     {
          fovRange = maxFov - minFov;
-         Debug.Log(GameObject.Find("First Person Hud") + "is here!");
-         zoomSlider = GameObject.Find("Zoom Slider").GetComponent<Slider>();
+         //Debug.Log(GameObject.Find("First Person Hud") + "is here!");
+         //zoomSlider = GameObject.Find("Zoom Slider").GetComponent<Slider>();
     }
 
     // Update is called once per frame
@@ -34,8 +34,8 @@ public class CameraZoom : MonoBehaviour
         fov = Mathf.Clamp(fov, minFov, maxFov);
         if(mainCam.fieldOfView != fov){
             mainCam.fieldOfView = fov;
-            float sliderValue = (fov - minFov)/fovRange;
-            zoomSlider.SetValueWithoutNotify(sliderValue);
+            //float sliderValue = (fov - minFov)/fovRange;
+            //zoomSlider.SetValueWithoutNotify(sliderValue);
         }
     }
 
